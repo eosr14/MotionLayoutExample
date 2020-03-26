@@ -10,10 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.eosr14.motionlayoutexample.R
-import com.eosr14.motionlayoutexample.codelab.step.Step1Activity
-import com.eosr14.motionlayoutexample.codelab.step.Step2Activity
-import com.eosr14.motionlayoutexample.codelab.step.Step3Activity
-import com.eosr14.motionlayoutexample.codelab.step.Step4Activity
+import com.eosr14.motionlayoutexample.codelab.step.*
 import kotlinx.android.synthetic.main.activity_code_lab.*
 
 private val data = listOf(
@@ -40,6 +37,12 @@ private val data = listOf(
         "복잡한 경로 수정",
         "애니메이션 복잡한 경로 수정",
         Step4Activity::class
+    ),
+    Step(
+        "Step 5",
+        "모션 실행중 속성변경",
+        "애니메이션 모션 실행중 속성 변경하기",
+        Step5Activity::class
     )
 )
 
