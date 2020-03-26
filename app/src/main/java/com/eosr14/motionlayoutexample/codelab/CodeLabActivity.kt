@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.eosr14.motionlayoutexample.R
 import com.eosr14.motionlayoutexample.codelab.step.Step1Activity
 import com.eosr14.motionlayoutexample.codelab.step.Step2Activity
+import com.eosr14.motionlayoutexample.codelab.step.Step3Activity
 import kotlinx.android.synthetic.main.activity_code_lab.*
 
 private val data = listOf(
@@ -26,54 +27,13 @@ private val data = listOf(
         "Drag 기반 애니메이션",
         "Drag 이벤트를 통해 애니메이션 제어하기",
         Step2Activity::class
+    ),
+    Step(
+        "Step 3",
+        "경로 수정",
+        "애니메이션 경로 수정",
+        Step3Activity::class
     )
-//    Step("Step 2",기
-//        "Animating based on drag events",기
-//        "Learn how to control animations with drag events. This will not display any animation until you complete the step in the codelab.",
-//        Step2Activity::class
-//    ),
-//    Step("Step 3",
-//        "Modifying a path",
-//        "Learn how to use KeyFrames to modify a path between start and end.",
-//        Step3Activity::class
-//    ),
-//    Step("Step 4",
-//        "Building complex paths",
-//        "Learn how to use KeyFrames to build complex paths through multiple KeyFrames.",
-//        Step4Activity::class
-//    ),
-//    Step("Step 5",
-//        "Changing attributes with motion",
-//        "Learn how to resize and rotate views during animations.",
-//        Step5Activity::class
-//    ),
-//    Step("Step 6",
-//        "Changing custom attributes",
-//        "Learn how to change custom attributes during motion.",
-//        Step6Activity::class
-//    ),
-//    Step("Step 7",
-//        "OnSwipe with complex paths",
-//        "Learn how to control motion through complex paths with OnSwipe.",
-//        Step7Activity::class
-//    ),
-//    Step("Completed: Steps 2-7",
-//        "Steps 2-7 completed",
-//        "All changes in steps 2-7 applied",
-//        Step7CompletedActivity::class,
-//        highlight = true
-//    ),
-//    Step("Step 8",
-//        "Running motion with code",
-//        "Learn how to use MotionLayout to build complex collapsing toolbar animations.",
-//        Step8Activity::class
-//    ),
-//    Step("Completed: Step 8 ",
-//        "Implements running motion with code",
-//        "Changes applied from step 8",
-//        Step8CompletedActivity::class,
-//        highlight = true
-//    )
 )
 
 
