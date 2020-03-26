@@ -23,6 +23,7 @@
 
         <activity android:name=".codelab.CodeLabActivity" />
         <activity android:name=".codelab.step.Step1Activity" />
+        <activity android:name=".codelab.step.Step2Activity" />
     </application>
 
 </manifest>

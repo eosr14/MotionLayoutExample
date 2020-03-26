@@ -2,4 +2,5 @@
     <string name="app_name">MotionLayoutExample</string>
     <string name="main_code_lab">Code Lab</string>
     <string name="star">Star</string>
+    <string name="credits">Virginia P @ Google</string>
 </resources>
