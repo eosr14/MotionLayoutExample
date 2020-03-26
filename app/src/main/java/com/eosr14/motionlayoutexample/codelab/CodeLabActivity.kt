@@ -13,6 +13,7 @@ import com.eosr14.motionlayoutexample.R
 import com.eosr14.motionlayoutexample.codelab.step.Step1Activity
 import com.eosr14.motionlayoutexample.codelab.step.Step2Activity
 import com.eosr14.motionlayoutexample.codelab.step.Step3Activity
+import com.eosr14.motionlayoutexample.codelab.step.Step4Activity
 import kotlinx.android.synthetic.main.activity_code_lab.*
 
 private val data = listOf(
@@ -33,6 +34,12 @@ private val data = listOf(
         "경로 수정",
         "애니메이션 경로 수정",
         Step3Activity::class
+    ),
+    Step(
+        "Step 4",
+        "복잡한 경로 수정",
+        "애니메이션 복잡한 경로 수정",
+        Step4Activity::class
     )
 )
 
