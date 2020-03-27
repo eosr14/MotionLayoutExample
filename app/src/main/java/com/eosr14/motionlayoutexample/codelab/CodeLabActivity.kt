@@ -43,6 +43,12 @@ private val data = listOf(
         "모션 실행중 속성변경",
         "애니메이션 모션 실행중 속성 변경하기",
         Step5Activity::class
+    ),
+    Step(
+        "Step 6",
+        "사용자 정의 속성 변경",
+        "애니메이션 사용자 정의 속성 변경하기",
+        Step6Activity::class
     )
 )
 
