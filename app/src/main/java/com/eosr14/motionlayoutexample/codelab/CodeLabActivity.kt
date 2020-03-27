@@ -55,6 +55,12 @@ private val data = listOf(
         "이벤트 및 복잡한 경로 제어",
         "애니메이션 이벤트 및 복잡한 경로 제어",
         Step7Activity::class
+    ),
+    Step(
+        "Step 8",
+        "코드로 모션 실행",
+        "코드로 애니메이션 모션 실행하기",
+        Step8Activity::class
     )
 )
 
