@@ -115,7 +115,7 @@
 
 ### Step by Step (Example)
 
-- Step 1 - 기본 애니메이션 만들기 ( [**Layout**](https://github.com/eosr14/MotionLayoutExample/blob/master/app/src/main/res/layout/activity_step1.xml) / [**MotionSence](https://github.com/eosr14/MotionLayoutExample/blob/master/app/src/main/res/xml/activity_step1_scene.xml)** )
+- Step 1 - 기본 애니메이션 만들기 ( [**Layout**](https://github.com/eosr14/MotionLayoutExample/blob/master/app/src/main/res/layout/activity_step1.xml) / **[MotionSence](https://github.com/eosr14/MotionLayoutExample/blob/master/app/src/main/res/xml/activity_step1_scene.xml)** )
 - Step 2 - Drag 이벤트를 통해 애니메이션 제어하기 ( **[Layout](https://github.com/eosr14/MotionLayoutExample/blob/master/app/src/main/res/layout/activity_step2.xml)** / **[MotionSence](https://github.com/eosr14/MotionLayoutExample/blob/master/app/src/main/res/xml/activity_step2_scene.xml)** )
 - Step 3 - 애니메이션 경로 제어하기  ( **[Layout](https://github.com/eosr14/MotionLayoutExample/blob/master/app/src/main/res/layout/activity_step3.xml)** / **[MotionSence](https://github.com/eosr14/MotionLayoutExample/blob/master/app/src/main/res/xml/activity_step3_scene.xml)** )
 - Step 4 - 애니메이션 복잡한 경로 제어하기  ( **[Layout](https://github.com/eosr14/MotionLayoutExample/blob/master/app/src/main/res/layout/activity_step4.xml)** / **[MotionSence](https://github.com/eosr14/MotionLayoutExample/blob/master/app/src/main/res/xml/activity_step4_scene.xml)** )
